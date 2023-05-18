@@ -1,0 +1,50 @@
+.profile{
+
+      display: flex; 
+       align-items: center;
+      
+
+}
+
+#card{
+    width:300px;
+    text-align: center;
+    height: 390px;
+    padding:10px;
+    color:white;
+    /* display: flex; */
+   
+  
+
+
+    /* //all contents come to center */
+
+    /* align-items: center;
+    justify-content: space-evenly; */
+     border-radius: 10px;
+    
+}
+.content h2,h3,p{
+    color:black;
+}
+.content h3{
+    font-size:16px;
+    margin-top:10px;
+    
+}
+#develop{
+    font-size:20px;
+
+}
+.skill{
+    float:left;
+}
+.material-icons{
+    vertical-align: middle;
+    margin-right:10px;
+}
+.para{
+    float:left;
+    font-size:13px;
+}
+

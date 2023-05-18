@@ -1,0 +1,17 @@
+.area{
+    margin-top: 30px;
+
+}
+
+
+.parent{
+    display:flex;
+    justify-content:space-evenly;
+} 
+.pie-chart{
+    margin-top: 30px;
+}
+#caption{
+    margin-left:460px;
+    font-weight:30px;
+}

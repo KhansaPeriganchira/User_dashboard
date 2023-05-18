@@ -1,0 +1,42 @@
+
+
+
+
+<mat-toolbar color="primary">
+
+  <!-- //generate an event in header ,click chayyumbboo action nadakkanam  becz toogle button present in header,  so create an event in btn-->
+
+    <button (click)="menuIconClick()" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>User Dashboard</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>settings</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>help</mat-icon>
+    </button>
+
+
+
+    
+    <!-- //buttonde tag inside trigger code kodukkanam then only when btn click time ll enddu trigger appear chayyendde menu list of options varuga -->
+
+       <button [matMenuTriggerFor]="menu" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>person</mat-icon>
+      </button>
+
+      <!-- <mat-menu> is a floating panel containing list of options. -->
+
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+            
+            <mat-icon>exit_to_app</mat-icon>
+            SignOut</button>
+       
+      </mat-menu>  
+
+<!-- <mat-menu> is a floating panel containing list of options. -->
+
+</mat-toolbar>
